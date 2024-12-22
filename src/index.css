@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'math' ;
+  color: #000;
+}
+
+.App {
+  margin: auto;
+  padding: 20px;
+}
+
+    @media (max-width: 1024px) {
+        .main-container {
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .header, .hero, .info {
+            text-align: center;
+        }
+        
+        .header .logo {
+            max-width: 150px;
+        }
+
+        .tags-container {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .main-container {
+            padding: 5px;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .tags-container button {
+            font-size: 12px;
+            padding: 8px;
+        }
+
+        .order-now {
+            width: 100%;
+            font-size: 16px;
+        }
+    }
+    

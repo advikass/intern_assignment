@@ -1,0 +1,83 @@
+.Text-word {
+  text-align: center;
+  background-color: #fff;
+  padding: 38px 40px 87px 38px;
+  border-radius: 10px;
+}
+
+.para {
+  font-size: 50px;
+  text-align: justify;
+  font-family: 'math';
+}
+
+.Button-text {
+  background-color: #ebff9e;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  border-color: black;
+}
+
+.subtext {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.Button-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.Button-div span{
+  width: 15%;
+  text-align: justify;
+}
+
+  @media (max-width: 1024px) {
+      .main-container {
+          flex-direction: column;
+          align-items: center;
+          padding: 12px;
+      }
+
+      .header, .hero, .Test-word {
+          text-align: center;
+      }
+      
+      .header .logo {
+          max-width: 150px;
+      }
+
+      .tags-container {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+      }
+  }
+
+  @media (max-width: 768px) {
+    .para{
+        text-align: left;
+        font-size: 25px;
+      }
+      .tags-container button {
+          font-size: 12px;
+          padding: 8px;
+      }
+      .Button-div span{
+        width: 50%;
+        text-align: left;
+
+      }
+      .Button-text{
+        width:50%;
+        
+      }
+      .Test-word{
+        margin: 0px -2px 0px 36px;
+      }
+  }
+  

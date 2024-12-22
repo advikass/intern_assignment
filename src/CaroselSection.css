@@ -1,0 +1,51 @@
+.CaroselSection {
+  padding: 20px;
+  border-radius: 15px;
+  width: 50%;
+  margin-top: 2px;
+}
+.image-container {
+  background-color: #fafafa;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.controls .Carosel-btn {
+  background-color: #ebff9e;
+  padding: 10px;
+  margin: 0px 8px 0px 8px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.image-container img {
+  width: 100%;
+  max-width: 300px;
+}
+.controls {
+  margin-top: 10px;
+  position: relative;
+  top: -58px;
+}
+.controls .Carosel-btn:hover {
+  background-color: #e1c6ff;
+}
+.controls .order-btn {
+  color: #fff;
+  border-radius: 20px;
+  background-color: #ebff9e;
+  color: black;
+  padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .CaroselSection {
+    width: 100%;
+  }
+  .image-container img {
+    max-width: 250px;
+  }
+
+  .controls .Carosel-btn {
+    margin: 0px 4px 0px 4px;
+  }
+}

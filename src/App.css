@@ -1,0 +1,15 @@
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  padding: 0px 15px;
+  background-color: #edc6ff;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    display: flex;
+    flex-direction: column; /* Stack components vertically */
+    align-items: stretch; /* Ensure full width for child components */
+  }
+}
